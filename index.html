@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Biryani Shop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+     <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand animate__animated animate__fadeInLeft" href="#">Spice Haven</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#menu">Delicacies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">Our Story</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#review">Review</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#location">Destination</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Get in Touch</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero-section d-flex flex-column text-white text-center">
+        <h1 class="animate__animated animate__fadeInDown">Experience The Authentic Taste of Spice Haven</h1>
+        <p class="lead animate__animated animate__fadeInUp">Freshly made with secret spices and traditional recipes</p>
+        <a href="#menu" class="btn btn-lg btn-warning animate__animated animate__pulse animate__infinite">Explore Delicacies</a>
+    </div>
+
+    <section class="container py-5" id="menu">
+        <h2 class="text-center mb-4 display-4 "  style="color: rgb(61, 27, 2);">Our Signature Biryani Collection</h2>
+        <div class="menu-section d-flex flex-wrap justify-content-center">
+            <div class="menu-item p-4 rounded shadow-lg text-dark text-center">
+                <img src="chick t.jpg" class="img-fluid rounded mb-2">
+                <h4>Chicken Tandori Biryani</h4>
+                <p>Succulent tandoori chicken mixed with flavorful biryani rice.</p>
+            </div>
+            <div class="menu-item p-4 rounded shadow-lg text-dark">
+                <img src="mutton.jpg" class="img-fluid rounded mb-2">
+                <h4>Mutton Dum Biryani</h4>
+                <p>Rich and aromatic mutton biryani cooked to perfection.</p>
+            </div>
+            <div class="menu-item p-4 rounded shadow-lg text-dark">
+                <img src="veg.jpg" class="img-fluid rounded mb-2">
+                <h4>Hyderabad Veg Biryani</h4>
+                <p>Aromatic spices with fresh vegetables and saffron rice.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="story-section" id="about">
+        <h1 class="animate__animated animate__fadeInDown display-4">Our Story</h1>
+        <p class="animate__animated animate__fadeInUp">Spice Haven was born from a passion for authentic flavors and age-old biryani traditions. 
+        Our chefs craft each dish with a blend of secret spices, ensuring every bite transports you to the rich culinary heritage of India. 
+        From the streets of Hyderabad to the kitchens of Lucknow, we bring you the best biryanis, slow-cooked to perfection.</p>
+        <img src="about.jpg" class="story-image animate__animated animate__zoomIn" alt="Our Story">
+    </div>
+
+
+    <div class="container my-5" id="review">
+        <h2 class="text-center display-4" style="color:rgb(76, 6, 6)">What Our Customers Say</h2>
+        <div id="testimonialCarousel" class="carousel slide mt-4" data-bs-ride="carousel">
+            
+            <div class="carousel-inner" >
+                <div class="carousel-item active">
+                    <div class="card p-4 text-center shadow-lg">
+                        <p class="fw-bold">"Amazing biriyani and great service!"</p>
+                        <p>- John Doe ⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card p-4 text-center shadow-lg">
+                        <p class="fw-bold">"Love the ambiance and the food!"</p>
+                        <p>- Jane Smith ⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card p-4 text-center shadow-lg">
+                        <p class="fw-bold">"Best place to chill and work."</p>
+                        <p>- Mark Lee ⭐⭐⭐⭐⭐</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </button>
+    
+        </div>
+    </div>
+    
+    <section class="location">
+    <div class="map-h1 " id="location">
+    <h1>Visit Us for an Authentic Feast</h1>
+    </div>
+    <div class="map-container">
+        <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.1320437963426!2d76.64883877514294!3d10.78673068935915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba85c97d437b74b%3A0x3b5ae63284061f8!2sPalakkad%2C%20Kerala!5e0!3m2!1sen!2sin!4v1710920000000" 
+        
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    
+    </div>
+</section>
+    
+    <section class="contact-section text-white py-5" id="contact">
+        <div class="container">
+            <h2>Get in Touch</h2>
+            <p>Visit us at: <strong>123 Biryani Street, Spice Town</strong></p>
+            <p>Call: <strong>+123 456 7890</strong> | Email: <strong>order@spicehaven.com</strong></p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
